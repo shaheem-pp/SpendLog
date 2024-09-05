@@ -39,3 +39,4 @@ node_modules/
 
 # Ignore static files
 staticfiles/
+media/
