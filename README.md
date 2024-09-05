@@ -1,7 +1,3 @@
-Here’s the updated `README.md` file with the new name "SpendLog":
-
----
-
 # SpendLog - Budgeting and Financial Tracking App
 
 Welcome to SpendLog, a comprehensive financial tracking and budgeting app designed to help users manage their spending and plan their finances effectively. SpendLog offers insightful charts and visualizations, supports Apple Authentication, and includes features like background notifications and widgets.
@@ -20,33 +16,6 @@ The frontend of SpendLog is an iOS application developed with SwiftUI. The app p
 - **Charts & Visualizations**: View detailed charts and graphs to understand your spending habits.
 - **Apple Authentication**: Secure and seamless sign-in with Apple Authentication.
 - **Notifications & Widgets**: Receive background notifications and use widgets to stay updated on your financial status.
-
-## Project Structure
-
-```plaintext
-SpendLog/
-├── README.md
-├── app                  # iOS SwiftUI app (frontend)
-└── backend              # Django backend (API)
-    ├── api              # Django app for handling API endpoints
-    │   ├── __init__.py
-    │   ├── admin.py
-    │   ├── apps.py
-    │   ├── migrations
-    │   │   └── __init__.py
-    │   ├── models.py
-    │   ├── tests.py
-    │   ├── urls.py
-    │   └── views.py
-    ├── manage.py
-    ├── project          # Django project configuration
-    │   ├── __init__.py
-    │   ├── asgi.py
-    │   ├── settings.py
-    │   ├── urls.py
-    │   └── wsgi.py
-    └── requirements.txt # Dependencies for the Django backend
-```
 
 ## Getting Started
 
@@ -90,6 +59,7 @@ SpendLog/
     DB_PORT=5432
     STATIC_ROOT=static
     USE_TZ=on
+    TIME_ZONE=America/Toronto
     ```
 
 5. **Run database migrations**:
@@ -117,15 +87,3 @@ SpendLog/
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any features, bug fixes, or improvements you would like to contribute.
-
-## License
-
-SpendLog is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Contact
-
-For any inquiries or support, feel free to contact the project maintainers at `your.email@example.com`.
-
----
-
-This updated README reflects the new app name and provides a clear overview of the project, setup instructions, and relevant details. If you need any further adjustments, just let me know!
