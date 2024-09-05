@@ -13,6 +13,7 @@ db.sqlite3
 
 # Ignore Python virtual environment directory
 venv/
+.venv/
 
 # Ignore log files
 *.log

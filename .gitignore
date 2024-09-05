@@ -1,16 +1,91 @@
-backend/project/.env
-.idea
-backend/media
-**/.idea
-**/.DS_Store
-.env
-env
-venv
-.venv
+# Django
 *.log
 *.pot
 *.pyc
-_pycache_
-backend/db.sqlite3
-*.bak
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+*.env
+*.env.*
+*.py[cod]
+*.pyo
+*.pyd
+*.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+local_settings.py
+django_*.log
+*.log
+*.sqlite3
 
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# macOS
+.DS_Store
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+.env/
+venv.bak/
+.env.bak/
+
+# Node modules
+node_modules/
+
+# Swift
+*.xcworkspace
+*.xcscheme
+*.xcuserstate
+*.xccheckout
+*.xcuserdatad
+*.xcdebugger
+*.xcscheme
+*.xcmappingmodel
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+
+# Xcode
+*.pbxuser
+*.xcuserstate
+*.xcuserdatad
+*.xcschememanagement.plist
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM
+*.swp
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# JetBrains IDEs
+.idea/
+
+# Others
+*.tmp
+*.swp
+*.swo
+*.swn
+*.DS_Store
+
+# Sensitive Files
+.env
+*.key
+*.pem
