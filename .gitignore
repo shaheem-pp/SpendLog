@@ -1,0 +1,16 @@
+backend/project/.env
+.idea
+backend/media
+**/.idea
+**/.DS_Store
+.env
+env
+venv
+.venv
+*.log
+*.pot
+*.pyc
+_pycache_
+backend/db.sqlite3
+*.bak
+
